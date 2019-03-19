@@ -3,10 +3,10 @@ Product:
     config:
         fields:
             id:
-                type: 'Int'
+                type: 'Int!'
             name:
-                type: 'String'
+                type: 'String!'
             price:
-                type: 'Float'
+                type: 'Float!'
             category:
                 type: 'Category'
