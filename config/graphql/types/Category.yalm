@@ -1,0 +1,10 @@
+Product:
+    type: object
+    config:
+        fields:
+            id:
+                type: 'Int'
+            name:
+                type: 'String'
+            category:
+                type: '[Product]'
